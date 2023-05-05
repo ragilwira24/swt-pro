@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sawit_pro
+    username: ragilwiradiputra
+    password: Put@4gil
+  liquibase:
+    changeLog: classpath:/db/changelog/db.changelog-master.xml
+
+jwt:
+  authentication:
+    private-key: sawit_pro_key.pem
